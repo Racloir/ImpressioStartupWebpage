@@ -159,25 +159,27 @@
 						<section>
 							<h2>Contact us</h2>
 							<form method="post" action="https://formsubmit.co/99b143ea2ede64ec35d91a79c671a26e">
-								
+								<!-- HoneyPot-->
+								<input type="text" name="_honey" style="display: none;">
+
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required/>
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="text" name="email" id="email" required/>
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+										<textarea name="message" id="message" rows="3" required></textarea>
 									</div>
 								</div>
-								<ul class="actions">
+								<div class="actions">
 									<button type="submit" class="btn btn-primary">Submit</button>
 									
-								</ul>
+								</div>
 							</form>
 						</section>
 						<section class="split contact">
@@ -198,7 +200,7 @@
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
-									<li><a href="#" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
